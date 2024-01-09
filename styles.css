@@ -208,12 +208,29 @@ button {
   padding-bottom:68px;
 }
 
+.cakes{
+  background-color: #F5F0EA;
+  text-align: center; /* Center text (including button) */
+  padding-bottom:68px;
+}
+
 /* Cards Section Styles */
 .cards {
 
   display: flex; /* Use flexbox to arrange cards horizontally */
   flex-direction: row; /* Arrange cards in a row */
   justify-content: space-around; /* Adjust spacing between cards */
+  padding: 20px; /* Add padding for spacing */
+  margin-top: 20px;
+}
+
+
+
+.cards2{
+  
+  display: grid; /* Use flexbox to arrange cards horizontally */
+  grid-template-columns: repeat(3, 1fr); /* Arrange cards in a row */
+  gap: 20px;
   padding: 20px; /* Add padding for spacing */
   margin-top: 20px;
 }
@@ -494,6 +511,15 @@ margin-right: auto;
     align-items: center;
     padding: 20px 0; /* Adjusted padding for better spacing */
   }
+.cards2{
+ display: grid;
+ grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  align-items: center;
+  padding: 20px 0; /* Adjusted padding for better spacing */
+}
+
+
 
   .card1,
   .card2,
