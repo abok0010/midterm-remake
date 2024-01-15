@@ -1,791 +1,930 @@
 /* Font Styles */
 @font-face {
-  font-family: 'Cupcake';
-  src: url(fonts/Cupcake\ Factory.ttf);
+	font-family: 'Cupcake';
+	src: url(fonts/Cupcake\ Factory.ttf);
 }
-
 @font-face {
-  font-family: 'Momcake';
-  src: url(fonts/Momcake-Thin.otf);
+	font-family: 'Momcake';
+	src: url(fonts/Momcake-Thin.otf);
 }
-
 @font-face {
-  font-family: 'Momcake-bold';
-  src: url(fonts/Momcake-Bold.otf);
+	font-family: 'Momcake-bold';
+	src: url(fonts/Momcake-Bold.otf);
 }
-
 /* Global Styles */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-
 /* Landing Section Styles */
 .landing {
-  background-color: #FFB4ED;
-  padding-bottom: 86px;
+	background-color: #FFB4ED;
+	padding-bottom: 86px;
 }
-
 /* Header Section Styles */
 .header {
-  width: 100%;
-  padding: 20px 50px;
-  /* Adjusted padding to reduce space */
-  background-color: #FFB4ED;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	width: 100%;
+	padding: 20px 50px;
+	/* Adjusted padding to reduce space */
+	background-color: #FFB4ED;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-
 /* Navigation Styles */
 ul {
-  list-style-type: none;
-  padding-right: 50px;
-  /* Added padding-right to the ul */
-  display: inline-block;
-  /* Changed display to inline-block */
+	list-style-type: none;
+	padding-right: 50px;
+	/* Added padding-right to the ul */
+	display: inline-block;
+	/* Changed display to inline-block */
 }
-
 li {
-  display: inline;
-  font-size: 25px;
-  font-family: 'Momcake-bold';
-  font-weight: bold;
-  color: #590B00;
-  transition-duration: 0.6s;
+	display: inline;
+	font-size: 25px;
+	font-family: 'Momcake-bold';
+	font-weight: bold;
+	color: #590B00;
+	transition-duration: 0.6s;
 }
-
 li:hover {
-  color: white;
+	color: white;
 }
-
 /* Style Events and About links */
 .navbar a {
-  text-decoration: none;
-  color: #590B00;
-  /* Same color as li tags */
+	text-decoration: none;
+	color: #590B00;
+	/* Same color as li tags */
 }
-
 a {
-  text-decoration: none;
-  transition-duration: 0.6s;
+	text-decoration: none;
+	transition-duration: 0.6s;
 }
-
 a:hover {
-  color: white;
+	color: white;
 }
 li:not(:last-child) {
-  margin-right: 240px;
-  /* Increased margin-right to add more space */
+	margin-right: 240px;
+	/* Increased margin-right to add more space */
 }
-
 /* Rest of your existing CSS */
-
 /* Logo Styles */
 .logo {
-  font-family: 'Cupcake';
-  /* Added font-family for the logo */
-  font-size: 35px;
-  /* Adjusted font size for the logo */
-  color: white;
-  /* Set the logo color to white */
+	font-family: 'Cupcake';
+	/* Added font-family for the logo */
+	font-size: 35px;
+	/* Adjusted font size for the logo */
+	color: white;
+	/* Set the logo color to white */
 }
-
 /* Banner Section Styles */
 .banner {
-  width: 80%;
-  margin-left: 277px;
-  margin-right: auto;
-  margin-top: 150px;
-  display: flex;
-  /* Added flex display */
+	width: 80%;
+	margin-left: 277px;
+	margin-right: auto;
+	margin-top: 150px;
+	display: flex;
+	/* Added flex display */
 }
-
 .img-land {
-  width: 50%;
-  /* Adjusted width for the image */
-  padding: 20px;
-  margin-top: -77px;
-  margin-left: -98px
+	width: 50%;
+	/* Adjusted width for the image */
+	padding: 20px;
+	margin-top: -77px;
+	margin-left: -98px
 }
-
 .text-container {
-  margin-top: 50px;
-  margin-left: 30px;
-  flex: 1;
-  /* Takes remaining space in the container */
-  padding: 20px;
-  /* Added padding for spacing */
-  display: flex;
-  /* Stack items vertically */
-  flex-direction: column;
-  /* Stack items vertically */
-  font-family: 'Momcake-bold';
-  width: auto;
+	margin-top: 50px;
+	margin-left: 30px;
+	flex: 1;
+	/* Takes remaining space in the container */
+	padding: 20px;
+	/* Added padding for spacing */
+	display: flex;
+	/* Stack items vertically */
+	flex-direction: column;
+	/* Stack items vertically */
+	font-family: 'Momcake-bold';
+	width: auto;
 }
-
 .landtext {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  color: white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: white;
 }
-
 /* Heading Styles */
 h1 {
-  font-family: 'Momcake-bold';
-  font-size: 45px;
-  color: #590B00;
-  margin-bottom: 10px;
-  /* Add margin between h1 and .textbox */
-  margin-left: 50px;
+	font-family: 'Momcake-bold';
+	font-size: 45px;
+	color: #590B00;
+	margin-bottom: 10px;
+	/* Add margin between h1 and .textbox */
+	margin-left: 50px;
 }
-
 .title {
-  text-align: center;
-  font-family: 'Momcake-bold';
-  color: #590B00;
-  font-size: 25px;
-  background-color: #FFF9FE;
-  padding: 22px;
+	text-align: center;
+	font-family: 'Momcake-bold';
+	color: #590B00;
+	font-size: 25px;
+	background-color: #FFF9FE;
+	padding: 22px;
 }
-
-
 /* Textbox Styles */
 .textbox {
-  flex-grow: 1;
-  /* Take remaining space in the container */
-  font-size: 25px;
-  margin-left: 50px;
+	flex-grow: 1;
+	/* Take remaining space in the container */
+	font-size: 25px;
+	margin-left: 50px;
 }
-
 /* Button Styles */
 button {
-  margin-top: 10px;
+	margin-top: 10px;
 }
-
 .order {
-  border-radius: 12px;
-  padding: 17px 50px;
-  font-size: 30px;
-  font-family: 'Momcake-bold';
-  color: white;
+	border-radius: 12px;
+	padding: 17px 50px;
+	font-size: 30px;
+	font-family: 'Momcake-bold';
+	color: white;
 }
-
 .order {
-  background-color: #590B00;
-  border: none;
-  margin-right: 20px;
-  transition-duration: 0.6s;
+	background-color: #590B00;
+	border: none;
+	margin-right: 20px;
+	transition-duration: 0.6s;
 }
 .order:hover {
-  background-color: white;
-  color: #590B00;
+	background-color: white;
+	color: #590B00;
 }
-
 .pk-order {
-  margin-top: 20px;
-  background-color: #590B00;
-  padding: 10px 40px;
-  border-radius: 12px;
-  font-size: 20px;
-  border: none;
-  font-family: 'Momcake-bold';
-  color: white;
-  transition-duration: 0.6s;
+	margin-top: 20px;
+	background-color: #590B00;
+	padding: 10px 40px;
+	border-radius: 12px;
+	font-size: 20px;
+	border: none;
+	font-family: 'Momcake-bold';
+	color: white;
+	transition-duration: 0.6s;
 }
-
 .pk-order:hover {
-  background-color: white;
-  color: #590B00;
+	background-color: white;
+	color: #590B00;
 }
-
 .read {
-  background-color: #FFB4ED;
-  border: 4px solid #ffffff;
-  transition-duration: 0.6s;
-  border-radius: 12px;
-  padding: 14px 45px;
-  font-size: 30px;
-  font-family: 'Momcake-bold';
-  color: white;
+	background-color: #FFB4ED;
+	border: 4px solid #ffffff;
+	transition-duration: 0.6s;
+	border-radius: 12px;
+	padding: 14px 45px;
+	font-size: 30px;
+	font-family: 'Momcake-bold';
+	color: white;
 }
-
 .read:hover {
-  background-color: white;
-  color: #590B00;
-  border: 4px solid white;
+	background-color: white;
+	color: #590B00;
+	border: 4px solid white;
 }
-
-
 .picks {
-  background-color: #F5F0EA;
-  text-align: center;
-  /* Center text (including button) */
-  padding-bottom: 68px;
+	background-color: #F5F0EA;
+	text-align: center;
+	/* Center text (including button) */
+	padding-bottom: 68px;
 }
-
+.about {
+	text-align: center;
+	/* Center text (including button) */
+	padding-bottom: 68px;
+}
 .cakes {
-  background-color: #F5F0EA;
-  text-align: center;
-  /* Center text (including button) */
-  padding-bottom: 68px;
+	background-color: #F5F0EA;
+	text-align: center;
+	/* Center text (including button) */
+	padding-bottom: 68px;
 }
-
 /* Cards Section Styles */
 .cards {
-
-  display: flex;
-  /* Use flexbox to arrange cards horizontally */
-  flex-direction: row;
-  /* Arrange cards in a row */
-  justify-content: space-around;
-  /* Adjust spacing between cards */
-  padding: 20px;
-  /* Add padding for spacing */
-  margin-top: 20px;
+	display: flex;
+	/* Use flexbox to arrange cards horizontally */
+	flex-direction: row;
+	/* Arrange cards in a row */
+	justify-content: space-around;
+	/* Adjust spacing between cards */
+	padding: 20px;
+	/* Add padding for spacing */
+	margin-top: 20px;
 }
-
-
-
 .cards2 {
-
-  display: grid;
-  /* Use flexbox to arrange cards horizontally */
-  grid-template-columns: repeat(3, 1fr);
-  /* Arrange cards in a row */
-  gap: 20px;
-  padding: 20px;
-  /* Add padding for spacing */
-  margin-top: 20px;
+	display: grid;
+	/* Use flexbox to arrange cards horizontally */
+	grid-template-columns: repeat(3, 1fr);
+	/* Arrange cards in a row */
+	gap: 20px;
+	padding: 20px;
+	/* Add padding for spacing */
+	margin-top: 20px;
 }
-.cake1,
-.cake2 {
-  background-color: #ffffff;
-  /* White background for each card */
-  border: 2px solid #590B00;
-  /* Border for each card */
-  border-radius: 10px;
-  /* Border radius for a rounded look */
-  margin: 2px;
-  /* Reduced margin for very close spacing between cards */
-  padding: 20px;
-  /* Adjusted padding for spacing */
-  text-align: center;
-  /* Center text in cards */
-  font-family: 'Momcake-bold';
-  color: #590B00;
-  transition-duration: 0.6s;
-  width: 70%;
-  /* Adjusted width for the cards in desktop view */
-  margin-bottom: 10px;
-  /* Reduced margin-bottom for less space between cards */
-  margin-left: auto;
-  margin-right: auto;
+.cake1,.cake2 {
+	background-color: #ffffff;
+	/* White background for each card */
+	border: 2px solid #590B00;
+	/* Border for each card */
+	border-radius: 10px;
+	/* Border radius for a rounded look */
+	margin: 2px;
+	/* Reduced margin for very close spacing between cards */
+	padding: 20px;
+	/* Adjusted padding for spacing */
+	text-align: center;
+	/* Center text in cards */
+	font-family: 'Momcake-bold';
+	color: #590B00;
+	transition-duration: 0.6s;
+	width: 70%;
+	/* Adjusted width for the cards in desktop view */
+	margin-bottom: 10px;
+	/* Reduced margin-bottom for less space between cards */
+	margin-left: auto;
+	margin-right: auto;
 }
-
-
 .cake1:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 .cake2:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-
-
 /* Individual Card Styles */
-.card1,
-.card2,
-.card3 {
-  background-color: #ffffff;
-  /* White background for each card */
-  border: 2px solid #590B00;
-  /* Border for each card */
-  border-radius: 10px;
-  /* Border radius for a rounded look */
-  margin: 2px;
-  /* Reduced margin for very close spacing between cards */
-  padding: 20px;
-  /* Adjusted padding for spacing */
-  text-align: center;
-  /* Center text in cards */
-  font-family: 'Momcake-bold';
-  color: #590B00;
-  transition-duration: 0.6s;
+.card1,.card2,.card3 {
+	background-color: #ffffff;
+	/* White background for each card */
+	border: 2px solid #590B00;
+	/* Border for each card */
+	border-radius: 10px;
+	/* Border radius for a rounded look */
+	margin: 2px;
+	/* Reduced margin for very close spacing between cards */
+	padding: 20px;
+	/* Adjusted padding for spacing */
+	text-align: center;
+	/* Center text in cards */
+	font-family: 'Momcake-bold';
+	color: #590B00;
+	transition-duration: 0.6s;
 }
-
-
 .card1:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 .card2:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-
 .price {
-  margin-top: 15px;
-  color: black;
-  font-size: 20px;
+	margin-top: 15px;
+	color: black;
+	font-size: 20px;
 }
-
 /* Image Styles */
-.img1,
-.img2 {
-  width: 90%;
-  /* Adjusted width for images */
-  max-width: 300px;
-  /* Set a max width for larger images */
-  height: auto;
-  /* Maintain aspect ratio */
-  margin-bottom: 5px;
-  /* Add margin between image and text */
+.img1,.img2 {
+	width: 90%;
+	/* Adjusted width for images */
+	max-width: 300px;
+	/* Set a max width for larger images */
+	height: auto;
+	/* Maintain aspect ratio */
+	margin-bottom: 5px;
+	/* Add margin between image and text */
 }
-
-
-
 .view {
-  margin-top: 30px;
-  background-color: #F5F0EA;
-  border: 4px solid #590B00;
-  padding: 10px 60px;
-  border-radius: 12px;
-  font-size: 20px;
-  font-family: 'Momcake-bold';
-  color: #590B00;
-  transition-duration: 0.6s;
+	margin-top: 30px;
+	background-color: #F5F0EA;
+	border: 4px solid #590B00;
+	padding: 10px 60px;
+	border-radius: 12px;
+	font-size: 20px;
+	font-family: 'Momcake-bold';
+	color: #590B00;
+	transition-duration: 0.6s;
 }
-
 .view:hover {
-  background-color: #ffffff;
-  color: #590B00;
-  border: 4px solid white;
+	background-color: #ffffff;
+	color: #590B00;
+	border: 4px solid white;
 }
-
-
-
 .next {
-  margin-top: 30px;
-  background-color: #F5F0EA;
-  border: 4px solid #590B00;
-  padding: 10px 60px;
-  border-radius: 12px;
-  font-size: 20px;
-  font-family: 'Momcake-bold';
-  color: #590B00;
-  transition-duration: 0.6s;
+	margin-top: 30px;
+	background-color: #F5F0EA;
+	border: 4px solid #590B00;
+	padding: 10px 60px;
+	border-radius: 12px;
+	font-size: 20px;
+	font-family: 'Momcake-bold';
+	color: #590B00;
+	transition-duration: 0.6s;
 }
-
-.next, a{
-  color: #590B00;
+.next, a {
+	color: #590B00;
 }
 .next:hover {
-  background-color: #ffffff;
-  color: #590B00;
-  border: 4px solid white;
+	background-color: #ffffff;
+	color: #590B00;
+	border: 4px solid white;
 }
-
-
-
-
-
 h3 {
-  font-size: 25px;
+	font-size: 25px;
 }
-
-
 .catering {
-  padding-top: 260px;
-  padding-bottom: 20px;
-  background-color: #590B00;
-  background-image: url(images/bakery-pink.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* Ensures the background image covers the entire section */
-  background-position: center center;
-  /* Center the background image */
-  color: white;
-  /* Set text color to white */
+	padding-top: 260px;
+	padding-bottom: 20px;
+	background-color: #590B00;
+	background-image: url(images/bakery-pink.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* Ensures the background image covers the entire section */
+	background-position: center center;
+	/* Center the background image */
+	color: white;
+	/* Set text color to white */
 }
-
-.catering,
-.catering p {
-  color: white;
-  /* Set text color to white for headings and paragraphs within the catering section */
-  font-size: 30px;
-  font-family: 'Momcake-bold';
+.catering,.catering p {
+	color: white;
+	/* Set text color to white for headings and paragraphs within the catering section */
+	font-size: 30px;
+	font-family: 'Momcake-bold';
 }
-
 .catitle {
-  margin-top: -200px;
-  color: white;
-  font-family: 'Momcake-bold';
-  font-size: 40px;
+	margin-top: -200px;
+	color: white;
+	font-family: 'Momcake-bold';
+	font-size: 40px;
 }
-
-h2, .textbox1, .textbox2 {
-  margin-left: 40px;
-}
-
 .textbox1 {
-  margin-top: 40px;
-  width: 85%;
+	margin-top: 40px;
+	width: 85%;
 }
-
 .textbox2 {
-  margin-top: 150px;
-  margin-bottom: 50px;
+	margin-top: 150px;
+	margin-bottom: 50px;
 }
-
 footer {
-  background-color: #FFB4ED;
-  padding: 30px;
-  margin-top: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+	background-color: #FFB4ED;
+	padding: 30px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
-
 .date {
-  font-family: 'Momcake';
-  color: #590B00;
-  font-size: 30px;
+	font-family: 'Momcake';
+	color: #590B00;
+	font-size: 30px;
 }
 .number {
-  font-family: 'Momcake-bold';
-  font-size: 30px;
-  color: #590B00;
+	font-family: 'Momcake-bold';
+	font-size: 30px;
+	color: #590B00;
 }
-
 .email {
-  font-family: 'Momcake-bold';
-  font-size: 30px;
-  color: #590B00;
+	font-family: 'Momcake-bold';
+	font-size: 30px;
+	color: #590B00;
 }
-
-
-
 /* Add the following styles for the sidebar */
 .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #590a00e1;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #590a00e1;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
 }
-
 .sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #ffffff;
-  display: block;
-  transition: 0.3s;
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #ffffff;
+	display: block;
+	transition: 0.3s;
 }
-
 .sidenav a:hover {
-  color: #FFB4ED;
+	color: #FFB4ED;
 }
-
 .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
 }
-
 /* Add the following styles to hide the original navbar on mobile view */
 .navbar {
-  display: block;
+	display: block;
 }
-
-
 .hamburger {
-  display: none;
+	display: none;
 }
 .eventcard {
-  margin-top: 30px;
-  display: flex;
-  margin-bottom: 20px;
-  align-items: center;
-  text-align: left;
-  font-family: 'Momcake';
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 25px;
+	margin-top: 16px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+	align-items: center;
+	text-align: left;
+	font-family: 'Momcake';
+	width: 80%;
+	margin-left: auto;
+	font-size: 25px;
 }
-
 .eventtitle {
-  font-family: 'Momcake-bold';
-  font-size: 35px;
+	font-family: 'Momcake-bold';
+	font-size: 35px;
+	color: #590B00;
+	margin-bottom: 10px;
 }
-
+.eventtext {
+	color: #2b2929;
+}
 .img3 {
-  width: 30%;
-  max-width: 100px;
-  height: auto;
-  margin-right: 20px;
+	margin-right: 10px;
+	width: 90%;
+	max-width: 300px;
+	height: auto;
+	margin-bottom: 5px;
 }
-
-.cardbox {
-  flex: 1;
-  max-width: 724px; /* Adjusted max-width for a wider container */
-  padding: 93px;
-  border-radius: 40px;
-  background: white;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
-
-.img3,
 .img4 {
-  width: 90%;
-  /* Adjusted width for images */
-  max-width: 300px;
-  /* Set a max width for larger images */
-  height: auto;
-  /* Maintain aspect ratio */
-  margin-bottom: 5px;
-  /* Add margin between image and text */
+	margin-left: 10px;
+	width: 90%;
+	max-width: 300px;
+	height: auto;
+	margin-bottom: 5px;
 }
-
-
-
-.landing3{
-  background-color:#F5F0EA;
+.img5 {
+	margin-left: 10px;
+	width: 90%;
+	max-width: 300px;
+	height: auto;
+	margin-bottom: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.events {
+	background-color: #F5F0EA;
+	padding-bottom: 30px;
+}
+.cardbox {
+	flex: 1;
+	max-width: 724px;
+	padding: 93px;
+	border-radius: 40px;
+	background: white;
+	margin-left: 40px;
+	background-color: #ffe0f8;
+}
+/* Add these styles for the about section */
+.about {
+	text-align: center;
+	padding-bottom: 68px;
+}
+/* Add these styles for the banner2 section */
+.banner2 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* Add these styles for the img-land2 */
+.img-land2 {
+	width: 50%;
+	padding: 20px;
+}
+/* Add these styles for the text-container */
+.text-container {
+	margin-left: 30px;
+	flex: 1;
+	text-align: left;
+}
+/* Add these styles for the textbox */
+.textbox {
+	font-size: 25px;
+}
+/* Add these styles for the h1 tag */
+h1 {
+	font-family: 'Momcake-bold';
+	font-size: 45px;
+	color: #590B00;
+	margin-bottom: 10px;
+}
+/* Add these styles for the landtext paragraph */
+.landtext {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: white;
+}
+/* Add these styles for the touch section layout */
+.touch {
+	display: flex;
+	justify-content: center;
+	/* Center horizontally */
+	align-items: center;
+	/* Center vertically */
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color:#F5F0EA;
+}
+.comm {
+	padding: 50px;
+}
+.contactfrm {
+	background-color: #FFF9FE;
+	padding: 30px;
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 500px;
+	/* Limit maximum width if needed */
+	margin-left: 141px;
+}
+form {
+	display: grid;
+	gap: 20px;
+}
+label {
+	font-family: 'Momcake-bold';
+	font-size: 18px;
+	color: #590B00;
+}
+input,select,textarea {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+}
+textarea {
+	resize: vertical;
+	height: 150px;
+	/* Adjust the height as needed */
+}
+input[type="submit"] {
+	background-color: #590B00;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 18px;
+}
+input[type="submit"]:hover {
+	background-color: #430800;
+}
+.contact-h2{
+	font-size: 55px;
+	font-family: 'Momcake-bold';
+	color: #430800;
+}
+.p2{
+	font-family:'Momcake-bold';
+	color: #430800;
+	font-size: 20px;
+}
 @media only screen and (max-width: 768px) {
-  .navbar {
-      display: none;
-  }
-
-  .hamburger {
-      display: inline-block;
-      font-size: 30px;
-      font-weight: bolder;
-      color: #590B00;
-  }
-
-  .sidenav {
-      text-align: center;
-      /* Align text to the left in the sidebar */
-      font-family: 'Momcake-bold';
-      padding-top: 20px;
-      /* Adjusted padding-top for better spacing */
-  }
-
-  .sidenav a {
-      margin-top: 10px;
-      padding: 8px 16px;
-      /* Adjusted padding for better spacing */
-  }
-
-  .landing {
-      background-color: #FFB4ED;
-      padding-bottom: 20px;
-      /* Removed padding-bottom to prevent overflow */
-  }
-
-
-  .wrapper {
-      overflow-x: hidden;
-      /* Hide horizontal overflow */
-  }
-
-  .banner {
-      margin-left: auto;
-      /* Adjusted margin-left to prevent overflow */
-      margin-right: auto;
-      /* Adjusted margin-right to prevent overflow */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-  }
-
-  .img-land {
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-  }
-
-  .text-container {
-      margin-left: auto;
-      /* Adjusted margin-left to center text */
-      margin-right: auto;
-      /* Adjusted margin-right to center text */
-      margin-top: 6px;
-      /* Adjusted margin-top for better spacing */
-      padding: 20px;
-      /* Added padding for spacing */
-  }
-
-  h1 {
-      font-size: 40px;
-      /* Adjusted font-size for the heading */
-      margin-left: auto;
-      /* Adjusted margin-left to center text */
-      margin-right: auto;
-      /* Adjusted margin-right to center text */
-      width: 100%;
-  }
-
-  .landtext {
-      margin-top: 10px;
-      margin-bottom: 20px;
-      color: white;
-      font-size: 25px;
-      /* Adjusted font-size for the text */
-  }
-
-  .textbox {
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-  }
-
-  .order,
-  .read {
-      padding: 20px 70px;
-      /* Adjusted button padding */
-      font-size: 20px;
-      /* Adjusted font-size for the buttons */
-      margin-right: 10px;
-      /* Adjusted margin-right for better spacing */
-  }
-
-  .read {
-      margin-top: 20px;
-  }
-  .picks {
-      padding-bottom: 20px;
-      /* Adjusted padding-bottom for better spacing */
-      text-align: center;
-  }
-  h2 {
-      font-size: 30px;
-      margin-left: auto;
-      margin-right: auto;
-  }
-
-  .cards {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 20px 0;
-      /* Adjusted padding for better spacing */
-  }
-  .cards2 {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      gap: 10px;
-      align-items: center;
-      padding: 20px 0;
-      /* Adjusted padding for better spacing */
-  }
-
-
-
-  .card1,
-  .card2,
-  .card3 {
-      width: 70%;
-      /* Adjusted width for the cards */
-      margin-bottom: 20px;
-      /* Added margin-bottom for better spacing between cards */
-      margin-left: auto;
-      margin-right: auto;
-  }
-  h3 {
-      font-size: 28px;
-  }
-
-  .img1, .img2 {
-      width: 80%;
-      height: auto;
-  }
-  .price {
-      margin-top: 10px;
-      font-size: 20px;
-      /* Adjusted font-size for the price */
-  }
-
-  .pk-order {
-      font-size: 20px;
-      margin-top: 10px;
-      padding: 20px 70px;
-      /* Adjusted button padding */
-
-  }
-
-  .view {
-      margin-top: 20px;
-      /* Adjusted margin-top for better spacing */
-      padding: 20px 70px;
-      /* Adjusted button padding */
-      font-size: 16px;
-      /* Adjusted font-size for the button */
-      margin-bottom: 20px;
-  }
-
-  .catering {
-      padding-top: 233px;
-      /* Adjusted padding-top to prevent overflow */
-      padding-bottom: 20px;
-      /* Adjusted padding-bottom to prevent overflow */
-      text-align: center;
-      font-size: 25px;
-  }
-
-
-  .textbox1,
-  .textbox2 {
-      margin-left: auto;
-      /* Adjusted margin-left to center text */
-      margin-right: auto;
-      /* Adjusted margin-right to center text */
-
-  }
-  .textbox2 {
-      margin-top: 51px;
-  }
-
-  footer {
-      flex-direction: column;
-      align-items: center;
-      padding-bottom: 20px;
-      /* Adjusted padding-bottom for better spacing */
-  }
-
-  .date,
-  .number,
-  .email {
-      margin: 10px 0;
-      font-size: 30px;
-  }
+	.navbar {
+		display: none;
+	}
+	.hamburger {
+		display: inline-block;
+		font-size: 30px;
+		font-weight: bolder;
+		color: #590B00;
+	}
+	.sidenav {
+		text-align: center;
+		/* Align text to the left in the sidebar */
+		font-family: 'Momcake-bold';
+		padding-top: 20px;
+		/* Adjusted padding-top for better spacing */
+	}
+	.sidenav a {
+		margin-top: 10px;
+		padding: 8px 16px;
+		/* Adjusted padding for better spacing */
+	}
+	.landing {
+		background-color: #FFB4ED;
+		padding-bottom: 20px;
+		/* Removed padding-bottom to prevent overflow */
+	}
+	.wrapper {
+		overflow-x: hidden;
+		/* Hide horizontal overflow */
+	}
+	.banner {
+		margin-left: auto;
+		/* Adjusted margin-left to prevent overflow */
+		margin-right: auto;
+		/* Adjusted margin-right to prevent overflow */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.img-land {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+	.text-container {
+		margin-left: auto;
+		/* Adjusted margin-left to center text */
+		margin-right: auto;
+		/* Adjusted margin-right to center text */
+		margin-top: 6px;
+		/* Adjusted margin-top for better spacing */
+		padding: 20px;
+		/* Added padding for spacing */
+	}
+	h1 {
+		font-size: 40px;
+		/* Adjusted font-size for the heading */
+		margin-left: auto;
+		/* Adjusted margin-left to center text */
+		margin-right: auto;
+		/* Adjusted margin-right to center text */
+		width: 100%;
+	}
+	.landtext {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		color: white;
+		font-size: 25px;
+		/* Adjusted font-size for the text */
+	}
+	.textbox {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	.order,.read {
+		padding: 20px 70px;
+		/* Adjusted button padding */
+		font-size: 20px;
+		/* Adjusted font-size for the buttons */
+		margin-right: 10px;
+		/* Adjusted margin-right for better spacing */
+	}
+	.read {
+		margin-top: 20px;
+	}
+	.picks {
+		padding-bottom: 20px;
+		/* Adjusted padding-bottom for better spacing */
+		text-align: center;
+	}
+	h2 {
+		font-size: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.cards {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 20px 0;
+		/* Adjusted padding for better spacing */
+	}
+	.cards2 {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 10px;
+		align-items: center;
+		padding: 20px 0;
+		/* Adjusted padding for better spacing */
+	}
+	.card1,.card2,.card3 {
+		width: 70%;
+		/* Adjusted width for the cards */
+		margin-bottom: 20px;
+		/* Added margin-bottom for better spacing between cards */
+		margin-left: auto;
+		margin-right: auto;
+	}
+	h3 {
+		font-size: 28px;
+	}
+	.img1, .img2 {
+		width: 80%;
+		height: auto;
+	}
+	.price {
+		margin-top: 10px;
+		font-size: 20px;
+		/* Adjusted font-size for the price */
+	}
+	.pk-order {
+		font-size: 20px;
+		margin-top: 10px;
+		padding: 20px 70px;
+		/* Adjusted button padding */
+	}
+	.view {
+		margin-top: 20px;
+		/* Adjusted margin-top for better spacing */
+		padding: 20px 70px;
+		/* Adjusted button padding */
+		font-size: 16px;
+		/* Adjusted font-size for the button */
+		margin-bottom: 20px;
+	}
+	.catering {
+		padding-top: 233px;
+		/* Adjusted padding-top to prevent overflow */
+		padding-bottom: 20px;
+		/* Adjusted padding-bottom to prevent overflow */
+		text-align: center;
+		font-size: 25px;
+	}
+	.textbox1,.textbox2 {
+		margin-left: auto;
+		/* Adjusted margin-left to center text */
+		margin-right: auto;
+		/* Adjusted margin-right to center text */
+	}
+	.textbox2 {
+		margin-top: 51px;
+	}
+	footer {
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 20px;
+		/* Adjusted padding-bottom for better spacing */
+	}
+	.date,.number,.email {
+		margin: 10px 0;
+		font-size: 30px;
+	}
+	.eventcard {
+		flex-direction: column;
+		align-items: stretch;
+		text-align: center;
+		text-align: center;
+		font-family: 'Momcake';
+		margin-right: auto;
+		margin-left: auto;
+		width: 80%;
+	}
+	.img3,.img4 {
+		width: 100%;
+		/* Full width for images in mobile view */
+		margin-bottom: 10px;
+		/* Increased margin between image and text for mobile view */
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.eventtitle {
+		font-family: 'Momcake-bold';
+	}
+	.cardbox {
+		flex: 1;
+		max-width: 724px;
+		padding: 93px;
+		border-radius: 40px;
+		background-color: #ffe0f8;
+	}
+	/* Add these styles for the about section */
+	.about {
+		text-align: center;
+		padding-bottom: 68px;
+	}
+	/* Add these styles for the banner2 section */
+	.banner2 {
+		width: 80%;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		/* Adjust for stacking on mobile */
+		align-items: center;
+		margin-top: 150px;
+	}
+	/* Add these styles for the img-land2 */
+	.img-land2 {
+		width: 100%;
+		/* Adjust for full width on mobile */
+		padding: 20px;
+	}
+	/* Add these styles for the text-container */
+	.text-container {
+		margin-left: 0;
+		/* Reset margin for mobile */
+		text-align: center;
+		/* Center text on mobile */
+	}
+	/* Add these styles for the textbox */
+	.textbox {
+		font-size: 18px;
+		/* Adjust font size for mobile */
+	}
+	/* Add these styles for the h1 tag */
+	h1 {
+		font-family: 'Momcake-bold';
+		font-size: 30px;
+		/* Adjust font size for mobile */
+		color: #590B00;
+		margin-bottom: 10px;
+	}
+	/* Add these styles for the landtext paragraph */
+	.landtext {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		color: white;
+	}
+	/* Add these styles for the touch section layout */
+	.touch {
+		display: flex;
+		flex-direction: column;
+		/* Adjust for stacking on mobile */
+		justify-content: center;
+		/* Center horizontally */
+		align-items: center;
+		/* Center vertically */
+		margin-top: 20px;
+		padding: 20px;
+		background-color: #F5F0EA;
+	}
+	.comm {
+		padding: 20px;
+		/* Adjust padding for mobile */
+		text-align: center;
+	}
+	.contactfrm {
+		background-color: #FFF9FE;
+		padding: 20px;
+		border-radius: 12px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		width: 100%;
+		/* Adjust width for mobile */
+		max-width: none;
+		/* Remove max-width for mobile */
+		margin-left: 0;
+		/* Reset margin for mobile */
+	}
+	form {
+		display: grid;
+		gap: 10px;
+	}
+	label {
+		font-family: 'Momcake-bold';
+		font-size: 16px;
+		/* Adjust font size for mobile */
+		color: #590B00;
+	}
+	input,select,textarea {
+		width: 100%;
+		padding: 10px;
+		margin-top: 5px;
+		margin-bottom: 15px;
+		box-sizing: border-box;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		font-size: 16px;
+	}
+	textarea {
+		resize: vertical;
+		height: 100px;
+		/* Adjust height for mobile */
+	}
+	input[type="submit"] {
+		background-color: #590B00;
+		color: white;
+		border: none;
+		padding: 10px 20px;
+		border-radius: 6px;
+		cursor: pointer;
+		font-size: 16px;
+		/* Adjust font size for mobile */
+	}
+	input[type="submit"]:hover {
+		background-color: #430800;
+	}
+	.contact-h2 {
+		font-size: 30px;
+		/* Adjust font size for mobile */
+		font-family: 'Momcake-bold';
+		color: #430800;
+	}
+	.p2 {
+		font-family: 'Momcake-bold';
+		color: #430800;
+		font-size: 16px;
+		/* Adjust font size for mobile */
+	}
 }
