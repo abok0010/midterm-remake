@@ -17,6 +17,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 /* Landing Section Styles */
 .landing {
 	background-color: #FFB4ED;
@@ -638,6 +639,8 @@ border: 4px solid white;
 
 
 @media only screen and (max-width: 768px) {
+
+
 	.navbar {
 		display: none;
 	}
@@ -664,10 +667,7 @@ border: 4px solid white;
 		padding-bottom: 20px;
 		/* Removed padding-bottom to prevent overflow */
 	}
-	.wrapper {
-		overflow-x: hidden;
-		/* Hide horizontal overflow */
-	}
+
 	.banner {
 		margin-left: auto;
 		/* Adjusted margin-left to prevent overflow */
